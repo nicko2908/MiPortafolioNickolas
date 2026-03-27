@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#NavPage{
+    background-color: rgb(56, 56, 56);
+    text-align: right;
+    padding: 8px 8px 8px 8px;
+}
+
+#NombreNav{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 35px;
+    float: left;
+}
+
+.TextoNav{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#Tabla{
+    width: 100%;
+    height: 50%;
+}
+
+#Columna-Izquierda{
+    background-color:   rgb(255, 255, 255);
+    width: 50%;
+    height: 50%;
+    vertical-align: top;
+    text-align: right;
+    padding-right: 80px;
+}
+
+#Imagen1{
+    width: 75%;
+}
+
+#Columna-Derecha{
+    vertical-align: top;
+    text-align: left;
+
+}
+
+.TituloColumnD{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 4, 0);
+    padding-top: 25px;
+    padding-left: 25px;
+    font-size: 50px;
+}
+
+#Lorem1 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.Boton1{
+    background-color: rgb(255, 74, 0);
+    color: white;
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 15%;
+    height: 10%;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+#Div2{
+    background-color: rgb(255, 74, 0);
+    text-align: center;
+}
+
+#Imagen2{
+    border-radius: 155px;
+    width: 190px;
+    height: 190px;
+    padding-top: 10px;
+    padding-bottom: 10px;   
+}
+
+.Lorem2{
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#MisPro{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding-bottom: 8px;
+}
+
+#TablaMisPro{
+    border-spacing: 20px;
+    margin: 0;
+    width: 100%;
+    height: 50vh;
+    padding: 0 20px 0 20px;
+}
+
+.Pro{
+    border: 2px solid black;
+    width: 15%;
+    height: 80vh;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.ImaPro{
+    width: 100%;
+    height: 30%;
+    border-radius: 5px;
+}
+
+.TitPro{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.TextPro{
+    margin-top: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+}
+
+.BotonPro{
+    background-color: rgb(255, 74, 0);
+    color: white;
+    margin-top: 25px;
+    width: 50%;
+    height: 8%;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#Pie{
+    padding: 15px;
+    background-color: rgb(56, 56, 56);
+    text-align: right;
+    color: white;
+}
+
+.boton {
+    background-color:#f9ec7d;
+    color:#3f298d;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;  
+    font-family: "Bree Serif", serif;
+    margin-top: 10px;
+}
+
+.boton:hover {
+    background-color:#3f298d; 
+    color: white;
+}

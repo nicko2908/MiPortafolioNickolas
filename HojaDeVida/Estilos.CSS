@@ -1,0 +1,76 @@
+.Columna-Izquierda{
+    padding: 0%;
+    background-color: beige;
+    width: 20%;
+    height: 100vh;
+    text-align: center;
+    vertical-align: top;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.Columna-Derecha{
+    background-color: rgb(209, 209, 209);
+    width: 80%;
+    height: 100vh;
+    vertical-align: top;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+.Tabla{
+    width: 100%;
+    height: 100%;
+}
+
+.FotoMia{
+    border-radius: 155px;
+    border: 3px solid black;
+    margin-top: 10px ;
+    margin-bottom: 64px;
+    width: 190px;
+    height: 190px;
+}
+
+#Titulos{
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+#TextoDefault{
+    margin: 0%;
+    text-align: left;
+    margin-left: 10px;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.TituloGrande{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 89px;
+    margin: 0%;
+    margin-left: 12px;
+}
+
+.SobreMi{
+        font-family: Calibri, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-left: 12px;
+    text-align: left;
+}
+
+.boton {
+    background-color:#f9ec7d;
+    color:#3f298d;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;  
+    font-family: "Bree Serif", serif;
+    margin-top: 10px;
+}
+
+.boton:hover {
+    background-color:#3f298d; 
+    color: white;
+}

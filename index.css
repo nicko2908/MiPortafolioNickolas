@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #3f298d;
+}
+
+#Titulo{
+    background-color: #f9ec7d;
+    height: 25vh;
+    text-align: center;
+}
+
+#Titulo h1{ 
+    color: #000000f0;
+    font-size: 30px;
+    padding: 10px;
+    font-family: "Bree Serif", serif;
+    text-transform: uppercase;
+    padding-top: 5vh;
+    letter-spacing: 2px;
+}
+
+#Titulo h2{
+    color: #000000f0;
+    font-size: 15px;
+    padding: 10px;
+    font-family: "Bree Serif", serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#Titulo h3{
+    color: #000000f0;
+    font-size: 12px;
+    padding: 10px;
+    font-family: "Bree Serif", serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#Tarjetas {
+    background-color: #3f298d;
+    width: 100%;
+    height: auto; 
+}
+
+table {
+    width: 100%; 
+    border-collapse: separate; 
+    border-spacing: 30px;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tarjeta{
+    background-color:#ff9978; 
+    color: rgb(0, 0, 0);
+    height: 60vh;
+    width: 65vh;
+    border-radius: 20px;
+
+}
+
+.TitulosTarjetas{
+    padding-top: 5vh;
+    color: #000000f0;
+    font-size: 20px;
+    font-family: "Bree Serif", serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.Imagen{
+    padding-top: 10vh;
+    padding-bottom: 15vh;
+    height: auto;
+    width: 30%;
+}
+
+.boton {
+    background-color:#f9ec7d;
+    color:#3f298d;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;  
+    font-family: "Bree Serif", serif;
+    margin-top: 10px;
+}
+
+.boton:hover {
+    background-color:#3f298d; 
+    color: white;
+}

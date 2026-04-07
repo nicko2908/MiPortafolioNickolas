@@ -59,7 +59,8 @@
 
 #Lorem1 {
     padding-left: 25px;
-    padding-right: 25px;
+    padding-right: 35px;
+    text-align: justify;
 }
 
 .Boton1{
@@ -91,6 +92,18 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
     color: white;
+    text-align: center;
+    text-align: justify;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.Nom{
+        margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
     text-align: center;
     margin-left: 5%;
     margin-right: 5%;

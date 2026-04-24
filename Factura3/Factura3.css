@@ -261,3 +261,19 @@ hr{
 .pie{
     height: 39px;
 }
+
+.boton {
+    background-color:#f9ec7d;
+    color:#3f298d;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;  
+    font-family: "Bree Serif", serif;
+    margin-top: 10px;
+    height: 20px;
+}
+
+.boton:hover {
+    background-color:#3f298d; 
+    color: white;
+}

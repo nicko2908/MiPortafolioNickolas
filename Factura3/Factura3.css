@@ -40,6 +40,7 @@ body {
 
 .Logo{
     width: 200px;
+    margin-left: 2px;
 }
 
 .EncDer{
@@ -70,14 +71,14 @@ body {
 
 .Contenido1{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     padding-left: 30px;
     padding-right: 30px;
     align-items: start;
 }
 
 .Izquierdo{
-    padding-left: 8px;
+    padding-left: 6px;
 }
 
 .Izquierdo h2{
@@ -99,7 +100,9 @@ body {
 }
 
 .Derecho{
+    grid-column: 3;
     padding-top: 25px;
+    padding-left: 29px;
 }
 
 .Derecho h2{
@@ -241,11 +244,17 @@ body {
     align-items: center;
     justify-content: flex-end;
     gap: 5px;
-    padding-bottom: 30px;
+    padding: 0 0 30px 30px  ;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.Firma p:last-child{
+    font-size: 10px;
 }
 
 hr{
-    width: 120px;
+    width: 185px;
     color: rgb(255, 255, 255);
 }
 

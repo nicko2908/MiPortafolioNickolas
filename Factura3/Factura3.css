@@ -19,28 +19,65 @@ body {
 
 .Imagen-fondo{
     display: grid;
-    grid-template-columns: 1fr; 
-    align-items: center;       
-    justify-items: end;        
+    grid-template-columns: 1fr;
+    align-items: center;    
 }
 
 .Encabezado {
     width: 100%;
     height: auto;
     grid-area: 1 / 1;
+    display: block;
+    object-fit: cover;
 }
 
-.texto-encima {         
-    color: #FF6600; 
-    font-size: 24px;
-    padding-right: 20px; 
+.EncIzq{
     grid-area: 1/1;
+    align-self: center;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+
+.Logo{
+    width: 200px;
+}
+
+.EncDer{
+    grid-area: 1/1;
+    justify-self: end;
+    align-self: center;
+    padding-right: 80px;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.EncDer span{
+    color: #FF6600;
+    font-family: sans-serif;
+    font-size: 33px;
+
+}
+
+.EncDer .row{
+    padding-top: 5px;
+    font-size: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3px;
+    font-family: sans-serif;
 }
 
 .Contenido1{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-left: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: start;
+}
+
+.Izquierdo{
+    padding-left: 8px;
 }
 
 .Izquierdo h2{
@@ -61,6 +98,9 @@ body {
     padding-top: 8px;
 }
 
+.Derecho{
+    padding-top: 25px;
+}
 
 .Derecho h2{
     color: #FF6600;
@@ -70,17 +110,21 @@ body {
 }
 
 .Informacion{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    font-size: 12px;
+    display: flex;
+    gap: 20px;
+    font-family: sans-serif;
 }
 
 .TablaFactura {
-    width: 100%;
+    width: calc(100% - 60px);
     table-layout: fixed;
     border-collapse: separate;
     margin-top: 25px;
     margin-bottom: 25px;
     border-spacing: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .ColDate  { width: 120px; }
@@ -97,6 +141,14 @@ body {
     font-family: sans-serif;
 }
 
+.TablaFactura .th2{
+    background-color: #FF6600;
+    color: white;
+    padding: 9px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
 .TablaFactura tbody tr:nth-child(even) {
     background-color: #f2f2f2;
 }
@@ -107,17 +159,96 @@ body {
     font-size: 14px;
 }
 
-.FilaResumen td {
-    text-align: right;
-    padding: 4px 10px;
+.TablaFactura .td2 {
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
 }
 
-.FilaTotal {
+.TablaFactura .trtotales td {
+    padding: 2px;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.TablaFactura .trtotales .td2 {
+    padding: 2px;
+    background-color: white;
+}
+
+.TablaFactura .trtotales1 td {
+    padding-top: 20px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 2px;
+    background-color: white;
+}
+.TablaFactura .trtotales1 .td2 {
+    padding-top: 20px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: white;
+}
+
+.trtotal{
+    display: flex;
+    justify-content: space-between;
     background-color: #FF6600;
     color: white;
+    font-family: sans-serif;
     font-weight: bold;
+    padding: 12px 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+
 }
 
-.FilaTotal td {
-    padding: 10px;
+.TerAndCon{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.Terminos{
+    grid-area: 1/1;
+    padding-left: 5px;
+}
+
+.Terminos h2{
+    font-size: 18px;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+}
+
+.Terminos p{
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.FirmaIma{
+    width: 50px;
+
+
+}
+
+.Firma{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+    padding-bottom: 30px;
+}
+
+hr{
+    width: 120px;
+    color: rgb(255, 255, 255);
+}
+
+.pie{
+    height: 39px;
 }

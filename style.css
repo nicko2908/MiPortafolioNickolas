@@ -41,46 +41,37 @@ body{
     letter-spacing: 2px;
 }
 
-#Tarjetas {
-    background-color: #3f298d;
-    width: 100%;
-    height: auto; 
-}
+#Cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:10px;
+    margin: 5px;
 
-table {
-    width: 100%; 
-    border-collapse: separate; 
-    border-spacing: 20px;
-    table-layout: fixed;
-}
-
-td {
-    text-align: center;
-    vertical-align: middle;
-}
-
-.tarjeta{
-    background-color:#ff9978; 
-    color: rgb(0, 0, 0);
-    height: 60vh;
-    width: 100%;
-    margin: 0 auto;
-    border-radius: 20px;
 
 }
 
-.TitulosTarjetas{
-    padding-top: 5vh;
+.Tarjeta{
+    display: flex;
+    background-color: #b57df9;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+
+
+.TitulosTarjeta{
+    padding-top: 15px;
     color: #000000f0;
     font-size: 20px;
-    font-family: "Bree Serif", serif;
+    font-family: sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
 .Imagen{
-    padding-top: 10vh;
-    padding-bottom: 15vh;
+    padding: 10px 0 10px 0 ;
     height: auto;
     width: 30%;
 }
@@ -91,8 +82,9 @@ td {
     padding: 10px 20px;
     border-radius: 10px;
     text-decoration: none;  
-    font-family: "Bree Serif", serif;
-    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 10px 0 10px 0;
 }
 
 .boton:hover {

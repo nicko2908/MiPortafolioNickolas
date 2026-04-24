@@ -10,7 +10,24 @@
     <div class="Papel">
         <div class="Imagen-fondo">
         <img class="Encabezado" src="../Assets/Encabezado.png" alt="Encabezado">
-        <span class="texto-encima">INVOICE</span>
+        <div class="EncIzq">
+            <img class="Logo" src="../Assets/LogoCompany.png" alt="Logo de la compañia">
+        </div>
+        <div class="EncDer">
+        <span><b>INVOICE</b></span>
+        <div class="row">
+            <p>Invoice Number:</p>
+            <p>#123456</p>
+        </div>
+        <div class="row">
+            <p>Account No:</p>
+            <p>1234 5678 9101</p>
+        </div>
+        <div class="row">
+            <p>Invoice Date:</p>
+            <p>April 05.2020</p>
+        </div>
+        </div>
         </div>
 
         <div class="Contenido1">
@@ -26,13 +43,17 @@
                 <div class="Informacion">
                     <p>Account No:</p>
                     <p>1234 5678 910</p>
+                </div>
+                <div class="Informacion">
                     <p>Account Name:</p>
                     <p>Jhone Doe.</p>
+                </div>
+                    <div class="Informacion">
                     <p>Branch Name:</p>
                     <p>XYZ</p>
                 </div>
             </div>
-    </div>
+        </div>  
 <table class="TablaFactura">
     <colgroup>
         <col class="ColDate">
@@ -45,74 +66,97 @@
         <tr>
             <th>DATE</th>
             <th>ITEM DESCRIPTION</th>
-            <th>PRICE</th>
-            <th>QTY.</th>
-            <th>TOTAL</th>
+            <th class="th2">PRICE</th>
+            <th class="th2">QTY.</th>
+            <th class="th2">TOTAL</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>Jan 10, 2020</td>
             <td>Businesscard Design</td>
-            <td>$300</td>
-            <td>2</td>
-            <td>$600.00</td>
+            <td class="td2">$300</td>
+            <td class="td2">2</td>
+            <td class="td2">$600.00</td>
         </tr>
         <tr>
             <td>Jan 10, 2020</td>
             <td>Fruit Flayer Design</td>
-            <td>$455</td>
-            <td>1</td>
-            <td>$450.00</td>
+            <td class="td2">$455</td>
+            <td class="td2">1</td>
+            <td class="td2">$450.00</td>
         </tr>
         <tr>
             <td>Jan 10, 2020</td>
             <td>Application Interface Design</td>
-            <td>$300</td>
-            <td>1</td>
-            <td>$300.00</td>
+            <td class="td2">$300</td>
+            <td class="td2">1</td>
+            <td class="td2">$300.00</td>
         </tr>
         <tr>
             <td>Jan 9, 2020</td>
             <td>Theme Development</td>
-            <td>$150</td>
-            <td>3</td>
-            <td>$450.00</td>
+            <td class="td2">$150</td>
+            <td class="td2">3</td>
+            <td class="td2">$450.00</td>
         </tr>
             <tr>
             <td>Jan 9, 2020</td>
             <td>Full Branding Design</td>
-            <td>$150</td>
-            <td>1</td>
-            <td>$150.00</td>
+            <td class="td2">$150</td>
+            <td class="td2">1</td>
+            <td class="td2">$150.00</td>
         </tr>
-            <tr>
+            <tr class="tr2">
             <td>Jan 8, 2020</td>
             <td>Creative Logo Design</td>
-            <td>$200</td>
-            <td>1</td>
-            <td>$200.00</td>
+            <td class="td2">$200</td>
+            <td class="td2">1</td>
+            <td class="td2">$200.00</td>
         </tr>
+        <tr class="trtotales1">
+        <td>Subtotal:</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="td2"><strong>$3150.00</strong></td>
+    </tr>
+        <tr class="trtotales">
+        <td>Discount:</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="td2"><strong>$00</strong></td>
+    </tr>
+        </tr>
+        <tr class="trtotales">
+        <td>Tax(10%):</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="td2"><strong>$315.00</strong></td>
+    </tr>
     </tbody>
-    <tfoot>
-        <tr class="FilaResumen">
-            <td colspan="4">Subtotal:</td>
-            <td></td>
-        </tr>
-        <tr class="FilaResumen">
-            <td colspan="4">Discount:</td>
-            <td></td>
-        </tr>
-        <tr class="FilaResumen">
-            <td colspan="4">Tax (10%):</td>
-            <td></td>
-        </tr>
-        <tr class="FilaTotal">
-            <td colspan="4">Total:</td>
-            <td></td>
-        </tr>
-    </tfoot>
 </table>
+    <div class="trtotal">
+    <span>Total:</span>
+    <span>$3,465.00</span>
+    </div>
+    <div class="TerAndCon">
+        <div class="Terminos">
+        <h2>Terms & Conditions:</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat rem expedita numquam aut voluptate provident quo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsa optio nemo error nostrum.</p>
+        </div>
+        <div class="Firma">
+            <img class="FirmaIma" src="../Assets/Firma.png" alt="firma">
+            <hr>
+            <p>Your name & signature</p>
+            <p>Account Manager</p>
+        </div>
+    </div>
+        <footer>
+        <img class="pie" src="../Assets/Footer.png" alt="Pie">
+    </footer>
     </div>
     </body>
 </html>

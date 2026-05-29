@@ -22,10 +22,14 @@ body {
     align-items: center;    
 }
 
-.Encabezado {
+.Imagen-fondo picture {
+    grid-area: 1 / 1;
+    width: 100%;
+}
+
+.Imagen-fondo picture .Encabezado {
     width: 100%;
     height: auto;
-    grid-area: 1 / 1;
     display: block;
     object-fit: cover;
 }
@@ -120,7 +124,7 @@ body {
 
 .Tabla{
     
-margin-left: 30px;
+    margin-left: 30px;
     margin-right: 30px;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -327,8 +331,43 @@ footer{
     }
 }
 
-@media(max-width: 651px){
-    .Derecho{
-        padding-left: 12px;
+@media(max-width: 450px){
+    .Imagen-fondo picture .Encabezado{
+        height: 150px;
+        object-fit: cover;
     }
+
+    .Contenido1 .Derecho{
+    padding-left: 0px ;
+    }
+
+    .Imagen-fondo .EncDer{
+        padding-right: 35px;
+    }
+
+    .Imagen-fondo .EncDer span{
+        font-size: 30px;
+    }
+
+    .Imagen-fondo .EncDer .row{
+        padding-left: 0px;
+    }
+
+    .Informacion p {
+    white-space: nowrap;
+    font-size: 10px;
+    }
+
+    .Contenido1 .Derecho h2{
+        font-size: 14px;
+    }
+
+    .Imagen-fondo .EncIzq .Logo{
+        width: 160px;
+    }
+
+    .Imagen-fondo .EncIzq{
+        padding-bottom: 30px;
+    }
+    
 }

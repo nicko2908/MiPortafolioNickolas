@@ -1,14 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 * {
     margin: 0;
     padding: 0;
 }
 
 body{
-    background-color: #3f298d;
+    background-color: #53008a;
 }
 
 #Titulo{
-    background-color: #f9ec7d;
+    background-color: beige;
     height: 25vh;
     text-align: center;
 }
@@ -52,7 +53,7 @@ body{
 
 .Tarjeta{
     display: flex;
-    background-color: #b57df9;
+    background-color: #1b0160;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -63,7 +64,7 @@ body{
 
 .TitulosTarjeta{
     padding-top: 15px;
-    color: #000000f0;
+    color: #fffffff0;
     font-size: 20px;
     font-family: sans-serif;
     text-transform: uppercase;
@@ -77,7 +78,7 @@ body{
 }
 
 .boton {
-    background-color:#f9ec7d;
+    background-color:#f5f0c3;
     color:#3f298d;
     padding: 10px 20px;
     border-radius: 10px;
@@ -85,9 +86,12 @@ body{
     font-family: sans-serif;
     font-size: 20px;
     margin: 10px 0 10px 0;
+    cursor: pointer;
 }
 
 .boton:hover {
-    background-color:#3f298d; 
-    color: white;
+    background-color:#ffffff; 
+    color: #1b0160;
+    transform: scale(1.07);
+    transition: all 0.3s ease;
 }

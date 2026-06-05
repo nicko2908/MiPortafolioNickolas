@@ -173,10 +173,109 @@
 
 .S4I p{
     padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
     border-bottom: 1px solid black;
+}
+
+.S4I .SelectorColor{
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.S4I .SelectorColor label{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: border-color 0.2s, transform 0.2s;
+}
+
+.S4I .SelectorColor input[type="radio"] {
+    display: none;
+}
+
+.S4I .SelectorColor label:hover{
+    transform: scale(1.15);
+}
+
+.S4I .SelectorColor input[type="radio"]:checked + label {
+    border-color: white;
+    outline: 3px solid currentColor;
+}
+
+.S4I .SelectorTallas{
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.S4I .SelectorTallas label{
+    padding: 1px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: border-color 0.2s, background 0.2s, color 0.2s;
+}
+
+.S4I .SelectorTallas label:hover{
+    border-color: #888;
+}
+
+.S4I .SelectorTallas input[type="radio"] {
+    display: none;
+}
+
+.S4I .SelectorTallas input[type="radio"]:checked + label {
+    border-color: #1e88e5;
+    background: #1e88e5;
+    color: white;
+    list-style: none;
+}
+
+.S4I .SelectorPrecios{
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.S4I .SelectorPrecios label{
+    padding: 1px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: border-color 0.2s, background 0.2s, color 0.2s;
+}
+
+.S4I .SelectorPrecios label:hover{
+    border-color: #888;
+}
+
+.S4I .SelectorPrecios input[type="radio"] {
+    display: none;
+}
+
+.S4I .SelectorPrecios input[type="radio"]:checked + label {
+    border-color: #1e88e5;
+    background: #1e88e5;
+    color: white;
+    list-style: none;
 }
 
 .S4D{
     grid-column: 2;
     padding-right: 5rem;
 }
+

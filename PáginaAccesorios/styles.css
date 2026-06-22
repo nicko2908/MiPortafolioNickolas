@@ -296,6 +296,6 @@
     grid-column: 2;
     padding-right: 5rem;
     display: grid;
-    grid-template-columns: repeat(8 1fr)
+    grid-template-columns: repeat(3, 1fr)
 }
 

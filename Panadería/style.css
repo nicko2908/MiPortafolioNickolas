@@ -288,7 +288,7 @@ html {
 }
 
 #S5 .productos .tarjetas .fp {
-    width: 75%;
+    width: 86%;
     border-radius: 1rem;
     margin: 1.25rem auto 0 auto;
     border: solid var(--Color-Terracota) 0.3rem;
@@ -304,7 +304,7 @@ html {
 
 #S5 .productos .tarjetas .descripcion {
     font-family: var(--fuente-secundaria);
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-inline: clamp(1rem, 2.5vw, 3rem);
     margin-top: 0.625rem;
     color: var(--Color-Oliva);
@@ -313,10 +313,10 @@ html {
 
 #S5 .productos .tarjetas .carrito {
     font-family: var(--fuente-secundaria);
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     margin-inline: clamp(1rem, 2.5vw, 3rem);
     margin-top: 0.625rem;
-    color: var(--Color-Vinotinto);
+    color: var(--Color-Terracota);
     text-align: left;
     font-weight: bold;
     display: flex;
@@ -325,18 +325,21 @@ html {
     padding-bottom: 1rem;
 }
 
-#S5 .productos .tarjetas .carrito .lcarro {
-    width: 2.5rem;
-}
-
-.carrito a {
-    display: flex;
+#S5 .productos .tarjetas .carrito .botonCompra{
+    background-color: var(--Color-Vinotinto);
+    padding: 0.5rem;
+    color: white;
+    font-family: var(--fuente-secundaria);
+    border-radius: 1.875rem;
     cursor: pointer;
+    border-color: var(--Color-Vinotinto);
 }
 
-.carrito a:hover {
-    transform: scale(1.10);
-    transition: all 0.2s;
+#S5 .productos .tarjetas .carrito .botonCompra:hover{
+    background-color: green;
+    transform: scale(1.12);
+    transition: all 0.3s;
+    border-color: green;
 }
 
 #S6 {
@@ -354,28 +357,28 @@ html {
 }
 
 .grid {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.25rem;
-    justify-content: center;
     max-width: 100%;
     margin: 0 auto;
-    flex-wrap: wrap;
 }
 
 .caja {
-    flex: 1;
-    min-width: clamp(14rem, 28%, 20rem);
+    width: 100%;
     aspect-ratio: 16/10;
     border-radius: 8px;
-    overflow: hidden;
+    
     display: grid;
-    grid-template-areas: "capas";
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.6);
 }
 
 .caja video {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.6);
+    
 }
 
 .caja span {
@@ -384,7 +387,6 @@ html {
     background: #a44832;
     padding: 4px 8px;
     border-radius: 3px;
-    margin-top: auto;
     align-self: flex-start;
 }
 
@@ -401,15 +403,36 @@ html {
     padding-right: 1rem;
 }
 
-.S7-I p {
-    font-family: var(--fuente-secundaria);
-    color: var(--Color-Vinotinto);
-    font-weight: bold;
-    font-size: clamp(0.9rem, 1.3vw, 1.125rem);
+.S7-I .contenedorDireccion{
+    background-color: whitesmoke;
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1rem;
 }
 
-.S7-I h2 {
+.S7-I .contenedorDireccion .botonpediwp, .botonComollegar, .botonLlamar{
+    background-color: var(--Color-Vinotinto);
+    color: white;
+    font-family: var(--fuente-secundaria);
+    border: var(--Color-Vinotinto);
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: 0.3rem 0;
+}
+
+.S7-I .contenedorDireccion .botonpediwp:hover, .botonComollegar:hover
+
+.S7-I .contenedorDireccion .TMapa{
     font-family: var(--fuente-principal);
+    color: var(--Color-Vinotinto);
+    font-weight: bold;
+    font-size: clamp(0.9rem, 1.8vw,  1.5rem);
+}
+
+.S7-I .contenedorDireccion h2 {
+    font-family: var(--fuente-secundaria);
     color: var(--Color-Oliva);
     padding-top: 1rem;
     font-size: clamp(1.2rem, 2.5vw, 2rem);
@@ -474,9 +497,8 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
     background-color: #fcf8f5;
-    padding: 2rem 1rem;
+    padding: 3rem 1rem;
 }
 
 .cabeza {
@@ -551,6 +573,25 @@ footer {
     flex-wrap: wrap;
 }
 
+.colRedes{
+    flex: 1;
+    min-width: 10rem;
+    text-align: center;
+    padding: 0 clamp(1rem, 3vw, 2.5rem); 
+}
+
+.colRedes h3 {
+    color: var(--Color-caqui);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
+}
+
+.colRedes a{
+    padding: 0 0.5rem;
+}
 .col {
     flex: 1;
     min-width: 10rem;
@@ -560,6 +601,7 @@ footer {
 
 .col:not(:last-child) {
     border-right: 1px solid var(--Color-caqui);
+    border-left: 1px solid var(--Color-caqui);  
 }
 
 .col h3 {
@@ -736,11 +778,7 @@ footer {
 }
 
 .grid {
-    flex-direction: column;
-}
-
-.caja {
-    min-width: 100%;
+    grid-template-columns: 1fr;
 }
 
 #S6 {
